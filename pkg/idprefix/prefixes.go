@@ -1,15 +1,17 @@
 package idprefix
 
 const (
-	User        = "usr"
-	Transaction = "txn"
-	Event       = "evt"
 	Achievement = "ach"
+	Event       = "evt"
+	Message     = "msg"
+	Transaction = "txn"
+	User        = "usr"
 )
 
 var PrefixToEntity = map[string]string{
-	User:        "User",
-	Transaction: "Transaction",
-	Event:       "Event",
 	Achievement: "Achievement",
+	Event:       "Event",
+	Message:     "Message",
+	Transaction: "Transaction",
+	User:        "User",
 }
